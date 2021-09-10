@@ -1,0 +1,181 @@
+.logincontainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.loginform-logo img {
+  justify-content: center;
+  padding: 5px;
+  border-width: 1px;
+  border-color: rgb(229, 229, 245);
+  background: #bed8df;
+}
+
+.loginform-cabe{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  margin-top: 15px;
+
+}
+
+.loginform { 
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  background: #bed8df;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 5px rgb(214, 149, 75);
+}
+
+.loginform h1 {
+  font-family: 'Roboto Slab';
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 5px;
+  background: #bed8df;
+  color: rgb(250, 120, 34);
+}
+
+.loginform h4 {
+  font-family: 'Roboto Slab';
+  font-weight: 300;
+  margin-top: 45px;
+  font-size: 15px;
+  color: #e1e1e6;
+  background-color: #c7c7ec;
+}
+
+.loginform-InputEmail {
+  display: flex;
+  align-items: center;
+  color: rgb(128, 128, 128);
+  background: #a5a5e9;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 400px;
+  height: 50px;
+  border: 2px solid #c7c7ec;
+}
+
+.loginform-InputPassword {
+  display: flex;
+  align-items: center;
+  color: gray;
+  background: #a5a5e9;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 10px;
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #c7c7ec;
+}
+
+.loginform-InputEmail input {
+  background: transparent;
+  width: 100%;
+  outline-width: 0;
+  color: #08088a;
+  border: none;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.loginform-InputPassword input {
+  background: transparent;
+  width: 100%;
+  outline-width: 0;
+  color:  #08088a;
+  border: none;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.loginform-InputPassword svg {
+  background: transparent;
+  margin-left: 10px;
+  font-size: 25px;
+  width: 50px;
+}
+
+.loginform-InputEmail svg {
+  background: transparent;
+  margin-left: 10px;
+  font-size: 25px;
+  width: 50px;
+}
+
+.loginform-eye {
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  font-size: 30;
+  cursor: pointer;
+  margin-right: 5px;
+  width: 50px;
+}
+.loginform-eye svg {
+  background: transparent;
+  margin-left: 5px;
+  font-size: 25px;
+  width: 30px;
+  height: 24px;
+}
+
+
+.loginform button {
+  width: 80%;
+  background-color: #050568;
+  color: rgb(250, 120, 34);
+  font-weight: 800;
+  height: 70px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+  border: none;
+  outline-width: 0;
+  padding-top: 10px;
+
+}
+
+.loginform button:hover {
+  background-color: #050568;
+  color: #EFF2F5;
+  cursor: pointer;
+}
+
+
+.mensagem {
+  font-family: 'Roboto Slab';
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 5px;
+  background-color: #c7c7ec;
+  color: rgb(250, 120, 34);
+}
+
+.mensagem h3 {
+  background-color: transparent;
+  font-family: 'Roboto Slab';
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  color: hsl(0, 96%, 50%); 
+}
